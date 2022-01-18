@@ -30,7 +30,8 @@ ms.author: maghan
 ## Syntax  
   
 ```  
-  
+USE msdb ;  
+GO    
 sp_stop_job   
       [@job_name =] 'job_name'  
     | [@job_id =] job_id   
